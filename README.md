@@ -55,11 +55,9 @@ The following models are used for forecasting:
 
 ### 4️⃣ Model Evaluation  
 - Performance metrics: **RMSE, MAE, MAPE**  
-- Hyperparameter tuning using **GridSearchCV / Optuna**  
 - Feature importance analysis to determine key drivers of demand  
 
 ## 📌 Results & Insights  
-- **Best Model**: LightGBM with RMSE = **176.37** and R² = **81.19%**  
-- **Feature Importance**: `checkout_price`, `emailer_for_promotion`, and `homepage_featured` are key drivers of demand.  
-- **Ensemble vs. Single Models**: Stacking improved accuracy by ~5% compared to individual models.  
-- **Seasonality Insight**: Higher demand observed in weeks **120-130**.  
+- **Best Model**: Stacking with RMSE = **163.5543** and R² = **83.82%**  
+- **Feature Importance**: `checkout_price`, `op_area`, and `homepage_featured` are key drivers of demand.  
+- **Ensemble vs. Single Models**: Stacking improved accuracy by ~5% compared to individual models.
